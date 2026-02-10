@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>XO Pulse</title>
+  <meta name="description" content="Where signals become artifacts."/>
+  <style>
+    :root{
+      --ink:#101114;
+      --muted:rgba(16,17,20,.72);
+      --line:rgba(16,17,20,.10);
+      --paper:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--paper);
+      color:var(--ink);
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      line-height:1.55;
+    }
+    main{max-width:880px;margin:0 auto;padding:72px 24px 80px}
+    h1{font-size:44px;letter-spacing:-.02em;margin:0 0 10px}
+    p{margin:0 0 16px;max-width:60ch}
+    .muted{color:var(--muted)}
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0}
+    a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+    a:hover{border-bottom-color:rgba(16,17,20,.35)}
+    footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted)}
+    .pill{
+      display:inline-block;
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:4px 10px;
+      margin-right:8px;
+      font-size:13px;
+      color:var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>XO Pulse</h1>
+
+    <p class="muted">
+      Where signals become artifacts.
+    </p>
+
+    <p>
+      Pulse publishes entries that can be referenced later —
+      signed or unsigned, simple or consequential.
+      If nothing is listed here yet, that is expected.
+    </p>
+
+    <p class="muted">Publication flow:</p>
+    <ul>
+      <li>Write → sign (optional)</li>
+      <li>Publish → durable output</li>
+      <li>Summarized daily in Digest</li>
+    </ul>
+
+    <p style="margin-top:24px">
+      <span class="pill">Signed → Visible → Alive</span>
+    </p>
+
+    <p style="margin-top:28px">
+      <a href="https://xo.center">XO Center →</a><br/>
+      <a href="https://xo-digest.com">Daily Digest →</a><br/>
+      <a href="https://xo-vault.com">Verification (Vault) →</a>
+    </p>
+
+    <footer>
+      Pulse is a surface. The record lives elsewhere.
+    </footer>
+  </main>
+</body>
+</html>
