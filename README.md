@@ -1,18 +1,24 @@
 # XO Pulse
 
-Where signals become artifacts.
+Public-facing landing for **xo-pulse.com**.
 
-Pulse publishes entries that can be referenced later — signed or unsigned, simple or consequential. If nothing is listed here yet, that is expected.
+This repo intentionally contains only static content.
+Runtime services, generators, and APIs live elsewhere.
 
-**Publication flow:**
-- Write → sign (optional)
-- Publish → durable output
-- Summarized daily in Digest
+## Repo layout
 
-Signed → Visible → Alive
+- `xo-pulse-site/` — Cloudflare Pages publish root
+  - `index.html`
+  - `README.md` (pointer)
 
-- XO Center → https://xo.center
-- Daily Digest → https://xo-digest.com
-- Verification (Vault) → https://xo-vault.com
+## Deploy
 
-_Pulse is a surface. The record lives elsewhere._
+Cloudflare Pages builds from `xo-pulse-site/` (no build step).
+GitHub Actions stamps the **Last updated** date on deploy.
+
+## Links
+
+- XO Center: https://xo.center
+- Daily Digest: https://xo-digest.com
+- Vault: https://xo-vault.com
+- Ledger: https://xoledger.com
